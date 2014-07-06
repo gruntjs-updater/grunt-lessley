@@ -1,0 +1,5 @@
+ /**
+  * @test A suite
+  * @result {
+  *   ✔︎: contains spec with an expectation;
+}

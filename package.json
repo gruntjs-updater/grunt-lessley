@@ -1,0 +1,50 @@
+{
+  "name": "grunt-lessley",
+  "description": "run lessley tests in grunt",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pixelass/grunt-lessley",
+  "author": {
+    "name": "Gregor Adams",
+    "email": "greg@pixelass.com",
+    "url": "http://pixelass.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pixelass/grunt-lessley.git"
+  },
+  "bugs": {
+    "url": "://github.com/pixelass/grunt-lessley/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pixelass/grunt-lessley/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "less": "~1.7.3",
+    "lodash": "~2.4.1",
+    "async": "~0.9.0",
+    "cli-color": "~0.3.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-internal": "~0.4.10"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
