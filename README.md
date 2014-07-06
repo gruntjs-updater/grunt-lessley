@@ -32,6 +32,9 @@ grunt.initConfig({
 });
 ```
 
+### Screenshot
+![test](log-tests.png?0001)
+
 
 
 ## Contributing
