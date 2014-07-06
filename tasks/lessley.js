@@ -7,10 +7,6 @@
  */
 
 'use strict';
-var less = require('less');
-var path = require('path');
-var _ = require('lodash');
-var async = require('async');
 var color = require('cli-color');
 
 module.exports = function (grunt) {
