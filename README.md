@@ -26,6 +26,7 @@ In your project's Gruntfile, add a section named `lessley` to the data object pa
 grunt.initConfig({
   lessley: {
     test: {
+    src: 'path/to/test/file.css'
     },
   },
 });
