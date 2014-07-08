@@ -57,7 +57,7 @@ module.exports = function (grunt) {
             test = tests[i].toString()
               .replace(/\/\*+.*/ig, '')
               .replace('@test ', '')
-              .replace(/\*/ig, '')
+              .replace(/\;/ig, '')
               .replace(/\*/ig, '')
               .replace(/\{/ig, '')
               .replace(/\}/ig, '');
